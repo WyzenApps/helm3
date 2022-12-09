@@ -1,4 +1,4 @@
 #!/bin/sh
 
-docker build --tag helm3:latest .
+docker build --tag wyzenrepo/helm3:latest .
 

@@ -1,6 +1,6 @@
-FROM debian:buster-slim AS build
+FROM debian:11-slim AS build
 
-ENV HELM_VERSION=3.3.1
+ENV HELM_VERSION=3.10.2
 ENV RELEASE_ROOT="https://get.helm.sh"
 ENV RELEASE_FILE="helm-v${HELM_VERSION}-linux-amd64.tar.gz"
 
